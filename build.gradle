@@ -1,0 +1,17 @@
+group 'ch.hsr.adv'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'ch.hsr.adv:adv-ui:0.3'
+    compile 'ch.hsr.adv:adv-lib:0.3'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
